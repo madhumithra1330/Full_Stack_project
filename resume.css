@@ -1,0 +1,54 @@
+body {
+font-family: Arial, sans-serif;
+margin: 40px;
+line-height: 1.6;
+background-color: #f5f5f5;
+}
+
+h1 {
+color: darkblue;
+text-align: center;
+}
+
+h2 {
+color: darkblue;
+border-bottom: 2px solid darkblue;
+padding-bottom: 5px;
+}
+
+p {
+font-size: 16px;
+}
+
+hr {
+border: 1px solid darkblue;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 20px;
+}
+
+th, td {
+border: 1px solid black;
+padding: 10px;
+text-align: center;
+}
+
+th {
+background-color: lightblue;
+}
+
+ol, ul {
+margin-bottom: 20px;
+}
+
+li {
+margin: 5px;
+}
+
+.signature {
+text-align: right;
+margin-top: 30px;
+}

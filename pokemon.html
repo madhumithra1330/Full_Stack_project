@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Explorer</title>
+
+    <link rel="stylesheet" href="pokemon.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>⚡ Pokémon Explorer</h1>
+        <p>Search and explore your favorite Pokémon</p>
+    </header>
+
+    <main>
+
+        <div class="search-box">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="Enter Pokémon name..."
+            >
+
+            <button onclick="searchPokemon()">
+                Search
+            </button>
+
+            <button onclick="randomPokemon()">
+                🎲 Random
+            </button>
+        </div>
+
+        <p id="message"></p>
+
+        <section id="pokemonContainer"></section>
+
+    </main>
+
+    <script src="pokemon.js"></script>
+
+</body>
+  
+</html>
